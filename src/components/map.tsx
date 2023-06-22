@@ -18,13 +18,13 @@ const Legend = ({ hoveredStateColor }: { hoveredStateColor: string }) => {
   );
 };
 
-const StateInformation = ({ stateId, selectedDataSet }) => {
+const StateInformation = ({ stateId, selectedDataSet }: { stateId: string, selectedDataSet: string }) => {
   // Find the state data based on the state ID
   const stateData = usStatesStatsData.find((data) => data.name === stateId);
 
   // Check if state data exists and extract the desired information
   if (stateData) {
-    const { per, total } = stateData.dates[selectedDataSet];
+    const { per, total } = stateData.dates[selectedDataSet as keyof typeof stateData.dates];
     return (
       <div className="">
         <h2>{stateData.name}</h2>
@@ -50,12 +50,12 @@ const StateMap = () => {
 
   const calculateFillColor = (stateId: string) => {
     const stateData = usStatesStatsData.find((data) => data.name === stateId);
-    if (stateData && stateData.dates && stateData.dates[selectedDataSet]) {
-      const per = stateData.dates[selectedDataSet].per;
+    if (stateData && stateData.dates && stateData.dates[selectedDataSet as keyof typeof stateData.dates]) {
+      const { per: statePer, total } = stateData.dates[selectedDataSet as keyof typeof stateData.dates];
       // Calculate the fill color based on the "per" value
       const maxPer = 33;
       const minPer = 7;
-      const normalizedPer = (per - minPer) / (maxPer - minPer);
+      const normalizedPer = (statePer - minPer) / (maxPer - minPer);
       const startColor = '#99f6e4'; // Pastel teal
       const endColor = '#075985'; // Teal
       const r =
@@ -160,7 +160,7 @@ const StateMap = () => {
                   stroke="#fff"
                   strokeWidth={0.5}
                   className="state-geography"
-                  onMouseEnter={(event) =>
+                  onMouseEnter={(event: any) =>
                     handleStateHover(stateId, calculateFillColor(stateId), event)
                   }
                   onMouseLeave={handleStateLeave}
