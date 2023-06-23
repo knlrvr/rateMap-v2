@@ -4,7 +4,7 @@ import Link from 'next/link'
 const About = () => {
   return (
     <div
-    className="relative h-full w-full bg-center bg-fixed bg-no-repeat"
+    className="relative h-full w-full bg-fixed bg-no-repeat bg-auto"
     style={{
       backgroundImage: `url(/para-6.png)`,
     }}
