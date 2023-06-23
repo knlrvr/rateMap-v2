@@ -6,12 +6,12 @@ import { BsArrowUpRight } from 'react-icons/bs'
 const AfspInfo = () => {
   return (
     <div
-    className="relative h-full w-full bg-cover  bg-center bg-fixed bg-no-repeat"
+    className="relative h-full w-full bg-center bg-fixed bg-no-repeat"
     style={{
       backgroundImage: `url(/para-3.png)`,
     }}
   >
-    <div className="flex items-center justify-center p-8 h-screen max-w-5xl mx-auto">
+    <div className="flex items-center justify-center p-8 h-80 max-w-5xl mx-auto">
         <div className="flex flex-col">
             <p className="text-2xl md:text-4xl text-[#222] text-center font-thin">
                 Learn more about suicide awareness & prevention from the people who know it best at the 
