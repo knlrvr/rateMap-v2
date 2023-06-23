@@ -102,10 +102,10 @@ const StateMap = () => {
 
   
   return (
-    <div className="max-w-5xl mx-auto relative border-b py-4">
+    <div className="max-w-5xl mx-auto relative py-4">
 
       {/* Data Set Toggle */}
-      <div className="flex justify-center mt-4 text-xs border-t p-4">
+      <div className="flex justify-center mt-4 text-xs p-4">
         <button
           className={`mx-2 ${
             selectedDataSet === '2017' ? 'text-sky-700 underline underline-offset-8' : ''

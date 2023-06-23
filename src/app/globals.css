@@ -4,6 +4,7 @@
 
 * {
     overscroll-behavior: none !important;
+    scroll-behavior: smooth !important;
 }
 
 .state-geography:focus {
