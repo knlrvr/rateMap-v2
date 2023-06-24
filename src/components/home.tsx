@@ -16,7 +16,7 @@ const Home = () => {
             </p>
             <p className="text-sm w-4/5 md:w-2/3">
               Our goal at <span className="text-[#075985]">Humanize It</span> is to help readers understand statistics related 
-              to suicide in the United States. It's easy to read numbers, but it's harder 
+              to suicide in the United States. It&apos;s easy to read numbers, but it&apos;s harder 
               to read people. We <em className="text-orange-400">humanize</em> the numbers.
             </p>
           </div>

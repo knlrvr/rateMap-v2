@@ -15,7 +15,7 @@ const MapDesc = () => {
                 />
             </div>
             <p className="font-light">
-                If you're not familiar with this specific set of data, this probably isn't anything
+                If you&apos;re not familiar with this specific set of data, this probably isn&apos;t anything
                 more than a colorful map. Luckily, this map contains a lot of information, but only
                 enough information to capture total numbers through out these years. 
                 <br /><br />
