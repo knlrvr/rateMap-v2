@@ -6,11 +6,11 @@ import { BsArrowUpRight } from 'react-icons/bs'
 const AfspInfo = () => {
   return (
     <div
-    className="relative h-full w-full bg-fixed bg-no-repeat bg-auto"
-    style={{
-      backgroundImage: `url(/para-3.png)`,
-    }}
-  >
+      className="relative h-full w-full bg-fixed bg-no-repeat bg-auto bg-center"
+      style={{
+        backgroundImage: `url(/para-3.png)`,
+      }}
+    >
     <div className="flex items-center justify-center p-8 h-80 max-w-5xl mx-auto">
         <div className="flex flex-col">
             <p className="text-2xl md:text-4xl text-[#222] text-center font-thin">

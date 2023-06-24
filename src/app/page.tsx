@@ -1,8 +1,8 @@
 import Map from '@/components/map'
 import Home from '@/components/home'
-import Image from 'next/image'
+import Tag from '@/components/tag'
 import About from '@/components/about'
-import Stats from '@/components/stats'
+import MapDesc from '@/components/mapDesc'
 import AfspInfo from '@/components/afsp-info'
 
 
@@ -13,7 +13,11 @@ export default function Page() {
       <Home />
     </section>
 
-    <section id ="about">
+    <section id ="tag">
+      <Tag />
+    </section>
+
+    <section id="about">
       <About />
     </section>
 
@@ -21,8 +25,8 @@ export default function Page() {
       <Map />
     </section>
 
-    <section id="stats">
-      <Stats />
+    <section id="map-desc">
+      <MapDesc />
     </section>
 
     <section id="afsp-info">

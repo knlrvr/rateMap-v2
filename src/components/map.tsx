@@ -36,10 +36,6 @@ const StateInformation = ({ stateId, selectedDataSet }: { stateId: string, selec
           <span className="text-xs text-neutral-300">rate</span>
           <h2 className="text-xs text-neutral-500 font-semibold">{per}</h2>
         </div>
-        <div className="flex items-center justify-between uppercase">
-          <span className="text-xs text-neutral-300">total</span>
-          <h2 className="text-xs text-neutral-500 font-semibold">{total}</h2>
-        </div>
       </div>
     );
   }
@@ -219,9 +215,6 @@ const StateMap = () => {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between space-y-2 p-2">
-        <p className="text-xs">
-          &#x2a; Rates shown are per 100,000 of total population. 
-        </p>
         <p className="text-xs">
           &#x2a;&nbsp;
           <span className="underline underline-offset-4">Source</span> 
