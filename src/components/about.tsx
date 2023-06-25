@@ -15,7 +15,7 @@ const About = () => {
                         className=""
                     />
                 </div>
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center p-8 rounded-lg bg-gray-100 shadow-md">
                     <p className="font-light text-lg">
                         Suicide is a vastly complex issue influenced by numerous interconnected factors,
                         including <em>mental health</em>, <em>socioeconomic</em>, and <em>cultural</em> factors. Data alone
@@ -24,7 +24,7 @@ const About = () => {
                         <em> oversimplifies</em> the problem and leads to incomplete or misleading interpretations. 
                     </p>
                 </div>
-                <div className="flex justify-center items-center order-2 md:order-1">
+                <div className="flex justify-center items-center order-2 md:order-1 p-8 rounded-lg bg-gray-100 shadow-md">
                     <p className="font-light text-lg">
                         Statistical data on suicide often lacks the broader context necessary for 
                         a comprehensive understanding. Establishing a causal relationship between factors
@@ -44,9 +44,9 @@ const About = () => {
                 </div>
             </div>
             <div className="grid grid-cols-2 grid-rows-2">
-                <div className="row-span-2 text-lg md:text-3xl font-thin border p-4 md:p-8">
+                <div className="row-span-2 text-lg md:text-3xl font-thin p-4 md:p-8 rounded-lg bg-gray-100 shadow-md">
                     Take a look at the following map displaying the suicide rates for each year from 2017 to 2021. We will 
-                    provide no additional context. 
+                    provide no additional context <em>yet</em>.
                 </div>
                 <div className="border-b"></div>
                 <div className=""></div>

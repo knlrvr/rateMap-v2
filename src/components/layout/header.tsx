@@ -68,6 +68,9 @@ const Header = () => {
                             <li className="">
                                 <a href="/#map">Map</a>
                             </li>
+                            <li className="">
+                                <a href="/#learn">Learn More</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -29,7 +29,7 @@ export default function Page() {
       <MapDesc />
     </section>
 
-    <section id="afsp-info">
+    <section id="learn">
       <AfspInfo />
     </section>
     </>

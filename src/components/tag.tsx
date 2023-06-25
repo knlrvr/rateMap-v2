@@ -15,7 +15,7 @@ const Tag = () => {
             Statistics are easily misunderstood, misrepresented, or biased. Without any context, it&apos;s easy to 
             read numbers. 
             <br /><br />
-            But these aren&apos;t numbers. These are <em className="font-semibold">people</em>. 
+            But these are more than numbers. <br /> These are <em className="font-semibold">people</em>. 
           </p>
         </div>
     </div>
