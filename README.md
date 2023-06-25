@@ -1,4 +1,4 @@
-<h2 align="center"> My Personal Portfolio </h2>
+<h2 align="center"> Humanize It </h2>
 
 ![Screenshot 2023-06-24 at 9 07 01 PM](https://github.com/knlrvr/rateMap-v2/assets/91632194/45c918c8-518e-4e0b-ae2a-09e7a281fef2)
 
