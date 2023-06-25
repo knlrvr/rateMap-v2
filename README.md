@@ -20,4 +20,4 @@ When I created this site, I was trying to make an interactive map with relevant 
 3. Open `http://localhost:3000` in a browser to view the application
 
 ## Notes
-> Updating styling & adding more data as needed. 
+> Updating styling & adding more data that creates a better representation of the issue. 
