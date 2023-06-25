@@ -27,7 +27,7 @@ const MapDesc = () => {
                 <br /><br />
                 While this map is certainly accurate in presenting age adjusted rates, it does very little to highlight 
                 the differing rates between states, how these rates can differ so drastically, or really <em>any other relevant factor</em>. 
-                Here at Humanize It, we value data, but only when it's complete. 
+                Here at Humanize It, we value data, but only when it&apos;s complete. 
                 <br /><br />
                 Because, <em> again</em>, these are more than numbers.
                 <br />

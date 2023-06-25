@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
             <div className="text-xs">
               &#42; <em className="underline">Age Adjusted Rates</em> are rates that would have existed if the 
-              population under study had the same age distribution as the "standard" population. Therefore, they 
+              population under study had the same age distribution as the &quot;standard&quot; population. Therefore, they 
               are summary measures adjusted for differences in age distributions.
             </div>
         </div>
